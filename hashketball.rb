@@ -130,7 +130,7 @@ end
 
 # Write code here
 def num_points_scored(players_name)
-  points = game_hash[:home][:players][:points]
+  game_hash[:home][:players][:points]
     if players_name == game_hash[:home][:players][:players_name]
       points.to_i
     end 
