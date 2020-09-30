@@ -172,7 +172,7 @@ def player_stats(players_name)
      stats << value2
     end
   end
-    
+    stats.flatten
 end
 
 def big_shoe_rebounds
