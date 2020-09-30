@@ -165,13 +165,12 @@ def player_numbers(team_name)
 end 
 
 def player_stats(players_name)
-  game_hash.each do |location, team_data|
-    #binding.pry
-    location.each do |attribute, data|
-      if data[player_name] == players_name
-        data
-      end 
-   end
+  stats = []
+
+  game_hash.each do |key, value|
+    value.each do |key2, value2|
+     stats << value2
+    end
   end
     
 end
