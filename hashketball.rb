@@ -171,6 +171,7 @@ def player_stats(players_name)
     value.each do |key2, value2|
      value2.each do |player_stats|
        stats << player_stats
+     end
     end
   end
     stats.flatten
