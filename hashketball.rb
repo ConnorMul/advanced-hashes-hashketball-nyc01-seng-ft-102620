@@ -169,7 +169,7 @@ def player_stats(players_name)
 
   game_hash.each do |key, value|
     value.each do |key2, value2|
-     value2.each do |player_stats|
+     key2.each do |player_stats|
        stats << player_stats
      end
     end
