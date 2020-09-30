@@ -163,7 +163,7 @@ end
 
 def player_stats(players_name)
   game_hash.each do |location, team_data|
-    binding.pry
+    #binding.pry
     location.each do |attribute, data|
       if data[player_name] == players_name
         data
