@@ -162,7 +162,12 @@ def player_numbers(team_name)
 end 
 
 def player_stats(players_name)
-  game_hash[:home][:players][]
+  game_hash.each do |location, team_data|
+    location.each do |attribute. data|
+      binding.pry
+    end
+  end
+    
 end
 
 def big_shoe_rebounds
