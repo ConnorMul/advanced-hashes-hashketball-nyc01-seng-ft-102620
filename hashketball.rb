@@ -144,3 +144,27 @@ end
     #  data[]
      # end
     #end 
+    
+def shoe_size(players_name)
+  
+end 
+
+def team_colors(team_name)
+  
+end 
+
+def team_names(game_hash)
+  
+end 
+
+def player_numbers(team_name)
+  
+end 
+
+def player_stats(players_name)
+  game_hash[:home][:players][]
+end
+
+def big_shoe_rebounds
+  
+end 
