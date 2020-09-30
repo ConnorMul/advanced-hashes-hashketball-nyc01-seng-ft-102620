@@ -135,7 +135,7 @@ def num_points_scored(players_name)
       
       data.each do |data_item|
         binding.pry
-        
+       points = data[:points]
       end 
     end 
   end 
