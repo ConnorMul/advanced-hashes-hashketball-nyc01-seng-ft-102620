@@ -167,7 +167,8 @@ end
 def player_stats(players_name)
   stats = [] 
  game_hash.each do |key, value|
-   
+   value.each do |key2, value2|
+     value2
   
   end
     stats.flatten
