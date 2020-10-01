@@ -152,7 +152,7 @@ end
 
 def team_names
     game_hash.each do |key, value|
-      value.slice()
+      value.slice(:team_name)
     end
  end 
 
