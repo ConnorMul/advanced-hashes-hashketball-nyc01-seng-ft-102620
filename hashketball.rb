@@ -130,7 +130,7 @@ end
 
 # Write code here
 def num_points_scored(players_name)
-  game_hash.dig(:home, :players, player_name, :score)
+  game_hash.dig(:home, :players, players_name, :score)
 end 
 
 
