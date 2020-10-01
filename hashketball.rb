@@ -179,10 +179,16 @@ def player_numbers(team_name)
 end 
 
 
-#def player_stats(players_name)
+def player_stats(players_name)
+ stats = {}
  
-  #end
+   game_hash.each do |team, team_info|
+    players_name = team_info[:players]
+    stats = players_name
+   end 
+   stats
+end
 
-#def big_shoe_rebounds
+def big_shoe_rebounds
   
-#end 
+end 
