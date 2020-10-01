@@ -151,10 +151,8 @@ def team_colors(team_name)
 end 
 
 def team_names(game_hash)
-  game_hash.each_with_object([]) do |(key, value), final_array|
-    value.each do |key2, value2|
-      if value2 == :team_name
-       final_array << :team_name
+  game_hash.fetch
+    
      end 
    end 
  end 
