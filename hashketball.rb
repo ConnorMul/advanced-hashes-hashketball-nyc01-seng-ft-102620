@@ -163,11 +163,7 @@ def player_numbers(team_name)
 end 
 
 def player_stats(players_name)
- # stats = {} 
- #game_hash.each do |key, value|
-  # value.each do |key2, value2|
-     #if value2[0] == players_name
-    #  stats = value2 
+ 
   end
 
 def big_shoe_rebounds
