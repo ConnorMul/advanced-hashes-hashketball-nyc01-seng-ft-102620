@@ -167,7 +167,7 @@ end
 def player_stats(players_name)
   stats = []
 if players_name == game_hash[:home][:players][:player_name] || players_name[:home][:players][:player_name]
-  stats << game_hash[:home][:players][:number..:slam_dunks]
+  stats << game_hash[:home][:players]
   
   end
     stats.flatten
