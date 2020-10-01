@@ -150,10 +150,9 @@ def shoe_size(players_name)
 end 
 
 def team_colors(team_name)
-  game_hash.each do |team, info|
-    info[:colors].map do |color|
-      if info[:team_name] == team_name
-        return color[:colors]
+  game_hash.map do |team, info|
+    if info[:team_name] == team_name
+      return info[:colors]
       end 
     end 
   end 
