@@ -173,8 +173,6 @@ def player_numbers(team_name)
     team_info[:players].each do |player|
       if team_name == team_info[:team_name]
         home_array << player[:number]
-      else
-        away_array << player[:number]
       end 
     end 
   end 
