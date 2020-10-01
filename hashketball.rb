@@ -160,7 +160,6 @@ end
 def team_names
     game_hash.map do |team, info|
       return info[:team_name]
-      end
     end
  end 
 
