@@ -193,12 +193,19 @@ def player_stats(players_name)
 end
 
 def big_shoe_rebounds
-  lowest_player = nil 
-  lowest_shoe = nil
+  reb_player = nil 
+  biggest_shoe = nil
+  rebounds = nil
   
   game_hash.each do |team, team_info|
     team_info[:players].each do |player_info|
-      if lowest_player = nil || player_info[:shoe] < lowest_shoe
-        
+      if reb_player = nil || player_info[:shoe] > biggest_shoe
+        reb_player = player_info[:player_name]
+        biggest_shoe = player_info[:shoe]
+        rebounds = player_info[:rebounds]
+      end 
+    end 
+  end 
+  rebounds
   
 end 
