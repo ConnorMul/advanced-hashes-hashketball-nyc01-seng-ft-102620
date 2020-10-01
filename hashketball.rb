@@ -130,7 +130,8 @@ end
 
 # Write code here
 def num_points_scored(players_name)
-  game_hash.each do |team
+  game_hash.each do |team, team_info|
+    
     
 def shoe_size(players_name)
   
