@@ -178,7 +178,8 @@ def player_numbers(team_name)
       end 
     end 
   end 
-  home_array away_array
+  home_array
+  away_array
 end 
 
 
