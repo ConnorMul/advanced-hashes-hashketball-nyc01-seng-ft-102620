@@ -151,7 +151,8 @@ def team_colors(team_name)
 end 
 
 def team_names(game_hash)
-  game_hash.fetch
+  game_hash.each do |key, value|
+    value.fetch 
     
      end 
    end 
