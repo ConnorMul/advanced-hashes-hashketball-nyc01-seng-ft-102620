@@ -154,7 +154,6 @@ def team_names(game_hash)
   game_hash.each do |key, value|
     value.fetch_values(:team_name)
     
-     end 
    end 
  end 
 end 
