@@ -130,17 +130,7 @@ end
 
 # Write code here
 def num_points_scored(players_name)
-  game_hash.dig(:home, :players, player_name, :score)
-end 
-
-
-#game_hash.each do |location, team_data|
- #  binding.pry
-  #  team_data.each do |attribute, data|
-   #  binding.pry
-    #  data[]
-     # end
-    #end 
+  game_hash.each do |team
     
 def shoe_size(players_name)
   
