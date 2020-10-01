@@ -177,8 +177,11 @@ def player_numbers(team_name)
         away_array << player[:number]
       end 
     end 
+  end 
+end 
   home_array, away_array
 end 
+
 
 def player_stats(players_name)
  
