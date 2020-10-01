@@ -196,6 +196,8 @@ def big_shoe_rebounds
   lowest_player = nil 
   lowest_shoe = nil
   
-  
+  game_hash.each do |team, team_info|
+    team_info[:players].each do |player_info|
+      if player
   
 end 
