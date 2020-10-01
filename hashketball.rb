@@ -183,8 +183,9 @@ def player_stats(players_name)
  stats = {}
  
    game_hash.each do |team, team_info|
-    players_name = team_info[:players]
-    stats = players_name
+    team_info[:players].each do |player_info|
+      if players_name == player_info[:player_name]
+      stats = player_info
    end 
    stats
 end
