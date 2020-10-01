@@ -170,7 +170,7 @@ def player_stats(players_name)
    value.each do |key2, value2|
      if value2[0] == players_name
       stats = value2 
-  
+  end 
   end
     stats
 end
