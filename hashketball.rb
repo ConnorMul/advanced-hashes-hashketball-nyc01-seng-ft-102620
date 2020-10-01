@@ -130,13 +130,7 @@ end
 
 # Write code here
 def num_points_scored(players_name)
-points_scored = []
-
-game_hash.each do |key, value|
-  value.each do |key2, value2|
-    supplies << value2
-  end
-end
+  
 end 
 
 
