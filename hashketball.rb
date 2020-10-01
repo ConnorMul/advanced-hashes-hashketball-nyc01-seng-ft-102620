@@ -161,6 +161,9 @@ def team_names(game_hash)
     value.each do |key2, value2|
       if value2 == :colors
         :colors
+      end 
+    end 
+  end 
 end 
 
 def player_numbers(team_name)
