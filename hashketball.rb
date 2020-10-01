@@ -153,7 +153,6 @@ def team_colors(team_name)
   game_hash.map do |team, info|
     if info[:team_name] == team_name
       return info[:colors]
-      end 
     end 
   end 
 end 
