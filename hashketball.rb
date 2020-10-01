@@ -167,7 +167,6 @@ def team_names
 
 def player_numbers(team_name)
   home_array = []
-  away_array = []
   
   game_hash.each do |team, team_info|
     team_info[:players].each do |player|
@@ -177,7 +176,6 @@ def player_numbers(team_name)
     end 
   end 
   home_array
-  away_array
 end 
 
 
