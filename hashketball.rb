@@ -150,8 +150,8 @@ def team_colors(team_name)
   
 end 
 
-def team_names(game_hash)
-    value.fetch_values(:team_name)
+def team_names
+    game_hash.fetch_values(:team_name)
     
  end 
 
